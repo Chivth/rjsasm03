@@ -1,0 +1,115 @@
+.checkoutpage {
+  width: 70%;
+  margin-left: 15%;
+}
+/*------------------
+   registerpage BANNER
+------------------*/
+.registerpage_banner {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(250, 250, 250);
+  height: 10rem;
+  align-items: center;
+}
+.registerpage_banner_left {
+  font-size: 40px;
+  font-style: italic;
+  margin-left: 3rem;
+}
+.registerpage_banner_right {
+  font-style: italic;
+  margin-right: 3rem;
+  color: black;
+  font-size: 14px;
+}
+.registerpage_banner_right span {
+  color: grey;
+}
+
+.checkoutpage_info {
+  width: 100%;
+  margin: 3rem 0;
+  font-style: italic;
+}
+.checkoutpage_infos {
+  width: 100%;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 64% 36%;
+}
+
+.checkoutpage_infos_left {
+  width: 97%;
+}
+.checkoutpage_infos_left div p {
+  margin: 0;
+}
+.checkoutpage_infos_left div {
+  margin-bottom: 1rem;
+}
+.checkoutpage_infos_left div input {
+  padding-left: 1rem;
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid rgb(160, 158, 158);
+}
+.checkoutpage_infos_left button {
+  width: 8rem;
+  height: 2.5rem;
+  background: rgb(0, 0, 0, 0.7);
+  border: rgb(0, 0, 0, 0.7);
+  color: white;
+  font-style: italic;
+}
+
+.checkoutpage_infos_right {
+  padding: 0.1px 0;
+  width: 100%;
+  background: rgb(250, 250, 250);
+}
+.checkoutpage_infos_right_content {
+  font-style: italic;
+  margin: 3rem 2rem;
+}
+
+.checkoutpage_infos_right_content input {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.checkoutpage_infos_right_content button {
+  width: 100%;
+  background: rgb(0, 0, 0, 0.7);
+  color: white;
+  border: 1px solid rgb(0, 0, 0, 0.7);
+}
+
+.checkoutpage_infos_right_contents {
+  margin: 2rem 0;
+}
+.checkoutpage_infos_right_content_top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 2.3fr 1fr;
+}
+.checkoutpage_infos_right_content_top span {
+  font-size: 14px;
+  color: grey;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkoutpage_infos_right_content_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.checkoutpage_infos_right_content_bottom span {
+  font-size: 18px;
+}

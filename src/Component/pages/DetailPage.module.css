@@ -1,0 +1,131 @@
+.detailpage {
+  width: 70%;
+  margin-top: 5rem;
+  margin-left: 15%;
+}
+.detailpage_product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.detailpage_product_text {
+  margin-left: 2rem;
+}
+.detailpage_product_text span {
+  color: grey;
+  font-size: 18px;
+}
+.detailpage_product_text p {
+  color: grey;
+  font-size: 14px;
+}
+.category {
+  display: flex;
+}
+
+.detailpage_product_img {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.detailpage_product_img_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2%;
+}
+.detailpage_product_img_list img {
+  width: 90%;
+}
+.detailpage_product_img1 img {
+  width: 100%;
+}
+
+.detailpage_inputbutton {
+  display: flex;
+}
+.detailpage_inputbutton input {
+  width: 12rem;
+}
+.detailpage_inputbutton button {
+  position: relative;
+  right: 3rem;
+  color: white;
+  background: black;
+  border: 1px solid black;
+  font-size: 14px;
+  font-style: italic;
+}
+.detailpage_inputbutton button a {
+  color: white;
+}
+.detailpage_num {
+  display: flex;
+
+  position: relative;
+  right: 3.5rem;
+  top: 0.2rem;
+}
+.detailpage_num i {
+  font-size: 14px;
+  position: relative;
+  margin-top: 0.3rem;
+}
+.detailpage_num h6 {
+  width: 1.5rem;
+  text-align: center;
+}
+
+.detailpage_description {
+  width: 100%;
+  margin-top: 5rem;
+  font-style: italic;
+}
+.detailpage_description button {
+  color: white;
+  background: black;
+  border: 1px solid black;
+  font-size: 16px;
+  font-style: italic;
+  height: 2.5rem;
+  width: 9rem;
+}
+.detailpage_description h5 {
+  margin: 1rem 0;
+  font-size: 18px;
+}
+.desclong {
+  white-space: pre-wrap;
+  color: grey;
+  font-size: 14px;
+}
+
+.detailpage_related_products {
+  margin-top: 5rem;
+}
+.detailpage_related_product {
+  display: flex;
+  overflow: x;
+}
+.detailpage_related {
+  font-style: italic;
+  width: 200px;
+  cursor: pointer;
+}
+.detailpage_related img {
+  width: 100%;
+}
+
+.name {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 500;
+}
+.price {
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  color: grey;
+  margin-left: 1rem;
+  margin-top: -0.5rem;
+}

@@ -1,0 +1,21 @@
+.footer {
+  background: black;
+  position: relative;
+  width: 100%;
+top: 2rem;
+}
+
+.footer_content {
+  padding: 3% 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+}
+.footer_content ul {
+  padding: 0;
+}
+.footer_content ul li a {
+  color: white;
+  font-style: italic;
+  font-size: 11px;
+}

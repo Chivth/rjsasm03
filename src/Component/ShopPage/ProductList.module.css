@@ -1,0 +1,27 @@
+.ProductList {
+  width: 100%;
+  margin-top: 2rem;
+}
+.ProductList_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.ProductList_image img {
+  width: 100%;
+  cursor: pointer;
+  transition: 1s;
+}
+.ProductList_image img:hover {
+  opacity: 0.5;
+}
+.transitions-enter {
+  opacity: 0;
+}
+.transitions-enter-active {
+  opacity: 1;
+}
+.images {
+  width: 10%;
+  cursor: pointer;
+  transition: 1s;
+}

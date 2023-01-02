@@ -1,0 +1,25 @@
+.nav_bar {
+  width: 70%;
+  margin-left: 15%;
+}
+.nav_bar_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+}
+
+.nav_bar_btn {
+  display: flex;
+}
+.nav_bar_btn button {
+  font-style: italic;
+  background: transparent;
+  border: none;
+}
+.nav_bar_btn button i {
+  color: rgb(112, 112, 114);
+}
+.nav_bar_color {
+  color: rgb(211 211 0);
+}

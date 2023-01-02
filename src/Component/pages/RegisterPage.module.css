@@ -1,0 +1,63 @@
+.registerpage {
+  width: 100%;
+  position: relative;
+  height: 90vh;
+}
+.registerpages {
+  height: 100%;
+}
+.registerpage_img {
+  height: 100%;
+}
+.registerpage_box {
+  position: absolute;
+  background: white;
+  width: 40%;
+  left: 30%;
+  top: 3%;
+
+  border-radius: 5%;
+}
+
+.registerpage_box h1 {
+  margin: 3rem auto;
+  text-align: center;
+}
+.registerpage_box p {
+  margin: 0;
+}
+.registerpage_box p:nth-child(5) input {
+  border-bottom: 1px solid grey;
+}
+.registerpage_box input {
+  width: 90%;
+  height: 3rem;
+  border: 1px solid grey;
+  border-bottom: none;
+  padding: 2rem;
+}
+.registerpage_box button {
+  background: rgb(97, 96, 96, 0.9);
+  border: rgb(97, 96, 96, 0.9);
+  color: white;
+  width: 90%;
+  height: 3rem;
+  margin-left: 5%;
+  margin-top: 1rem;
+}
+.registerpage_box p {
+  text-align: center;
+}
+.registerpage_box p:last-child {
+  margin: 2rem 0;
+  color: gray;
+}
+
+.registerpage_img {
+  width: 100%;
+  height: 100%;
+}
+.registerpage_img img {
+  width: 100%;
+  height: 100%;
+}

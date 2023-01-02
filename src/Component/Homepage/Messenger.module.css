@@ -1,0 +1,134 @@
+.homepage_messenger {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  top: 24rem;
+  right: 2rem;
+  background: black;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.homepage_messenger i:nth-child(1) {
+  scale: 1.5;
+  color: white;
+  position: absolute;
+  top: 0.65rem;
+  left: 0.65rem;
+}
+
+.homepage_boxchat {
+  position: fixed;
+  top: 0.1rem;
+  right: 5rem;
+  border-radius: 5%;
+  margin: 1rem 0rem;
+  background: white;
+  box-shadow: 0px 0px 12px 0px grey inset;
+}
+.homepage_boxchats {
+  padding-top: 1rem;
+  width: 22rem;
+}
+.homepage_boxchat_head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.homepage_boxchat_head button {
+  border: 1px solid white;
+  color: gray;
+  font-size: 14px;
+}
+.homepage_boxchat_container {
+  height: 15rem;
+}
+.homepage_boxchat_container div {
+  border-radius: 5px;
+}
+.homepage_boxchat_container div:nth-child(1) {
+  margin-top: 1rem;
+  background: #0084ff;
+  margin-left: 64.5%;
+  width: 5rem;
+}
+.homepage_boxchat_container div:nth-child(1) p {
+  margin-left: 0.5rem;
+  color: white;
+}
+.homepage_boxchat_container div:nth-child(2) {
+  margin-top: 1rem;
+  background: #0084ff;
+  margin-left: 14%;
+  width: 16.2rem;
+}
+.homepage_boxchat_container div:nth-child(2) p {
+  margin-left: 0.5rem;
+  color: white;
+}
+.homepage_boxchat_container div:nth-child(3) {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+.homepage_boxchat_container div:nth-child(3) img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+.homepage_boxchat_container div:nth-child(3) p {
+  background: #ebe8e8;
+  width: 9rem;
+  text-align: center;
+  border-radius: 5px;
+}
+.homepage_boxchat_container div:nth-child(4) {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+.homepage_boxchat_container div:nth-child(4) img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+.homepage_boxchat_container div:nth-child(4) p {
+  background: #ebe8e8;
+  width: 15rem;
+  text-align: inherit;
+  border-radius: 5px;
+}
+
+.homepage_boxchat_foot {
+  background: #dfdddd;
+  border-top: 1px solid grey;
+  padding-bottom: 1rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.homepage_boxchat_foot img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+
+  margin-left: 1rem;
+}
+.homepage_boxchat_foot input {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.homepage_boxchat_foot i {
+  margin-left: 0.5rem;
+  color: grey;
+}
+.homepage_boxchat_foot i:last-child {
+  color: #0084ff;
+}
+.homepage_boxchat_hide {
+  display: none;
+}
