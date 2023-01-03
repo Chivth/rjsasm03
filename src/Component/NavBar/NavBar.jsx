@@ -11,7 +11,7 @@ const NavBar = () => {
 
   // const onLogin = useSelector((state) => state.onlogin.ON_LOGIN);
   const checkLogin = JSON.parse(localStorage.getItem("ON_LOGIN"));
-  const userArray = JSON.parse(localStorage.getItem("userName"));
+  const userArray = JSON.parse(localStorage.getItem("userName"))||[];
   const userArr = userArray.map((e) => e.fullname);
 
   const handleLogout = () => {
